@@ -1,0 +1,10 @@
+<web-app>
+<servlet>
+<servlet-name>Dollar</servlet-name>
+<servlet-class> Dollar</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Dollar</servlet-name>
+<url-patterns>/Dollar</url-pattern>
+</servlet-mapping>
+</web-app> 

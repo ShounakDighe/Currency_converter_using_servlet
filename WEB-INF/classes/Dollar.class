@@ -1,0 +1,25 @@
+import javax.servlet.http.*;
+import javax.servlet.*;
+import java.io.*;
+public class Dollar extends HttpServlet
+{
+public void doGet(HttpServletRequest req, HttpServlet Response res)throws IOException,ServletException
+{
+Print Writer pr=res,get Writer();
+res.setContentType("text/html");
+try{
+int x=Integer.parseInt(req.getParameter(*tI"));
+pr.printIn("The Dollar value is = "+ (x/70.83));
+pr.printIn("<br>");
+pr.printin("The Euro value is ="+(x/77.76));
+pr.printin("<br>");
+pr.printIn("The Ruble value is ="+(x/1.10));
+pr.printin("<br>");
+pr.printIn("The Pound value is =*+(x/87.32));
+}
+catch(Exception e)
+{
+pr.printin("Invalid Input");
+}
+}
+}
